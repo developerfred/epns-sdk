@@ -11,77 +11,84 @@ export const epnsClient = new ApolloClient({
 
 export const ensClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/ensdomains/ens'
+    uri: 'https://api.thegraph.com/subgraphs/name/ensdomains/ens',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const gitconGrants = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/developerfred/gitcoin-grants'
+    uri: 'https://api.thegraph.com/subgraphs/name/developerfred/gitcoin-grants',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const makerGovClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/scottrepreneur/maker-governance'
+    uri: 'https://api.thegraph.com/subgraphs/name/scottrepreneur/maker-governance',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const makerVaultsClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/graphitetools/maker'
+    uri: 'https://api.thegraph.com/subgraphs/name/graphitetools/maker',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const manaClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/decentraland'
+    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/decentraland',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const nexusClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/wtait/nexus-mutual'
+    uri: 'https://api.thegraph.com/subgraphs/name/wtait/nexus-mutual',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const poolTogetherClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/asselstine/pooltogether'
+    uri: 'https://api.thegraph.com/subgraphs/name/asselstine/pooltogether',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const setClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/destiner/token-sets'
+    uri: 'https://api.thegraph.com/subgraphs/name/destiner/token-sets',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const uniClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/uniswap'
+    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/uniswap',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const compoundClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/compound-v2'
+    uri: 'https://api.thegraph.com/subgraphs/name/graphprotocol/compound-v2',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
 
 export const cryptoKittiesClient = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://api.thegraph.com/subgraphs/name/thomasproust/cryptokitties-explorer'
+    uri: 'https://api.thegraph.com/subgraphs/name/thomasproust/cryptokitties-explorer',
   }),
-  cache: new InMemoryCache()
-})
+  cache: new InMemoryCache(),
+});
+
+export const melonClient = new ApolloClient({
+  link: new HttpLink({
+    uri: 'https://api.thegraph.com/subgraphs/name/melonproject/melon',
+  }),
+  cache: new InMemoryCache(),
+});

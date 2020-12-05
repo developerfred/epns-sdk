@@ -1,6 +1,7 @@
 import gql from 'graphql-tag';
 
-export const EPNS_PROTOCOL = gql`
+// eslint-disable-next-line import/prefer-default-export
+export const EPNS_PROTOCOL_QUERY = gql`
   query Donations($user: String!) {
     donations(where: { donator: $user }) {
       id

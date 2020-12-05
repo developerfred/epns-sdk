@@ -1,6 +1,6 @@
 {
   "short_name": "EPNS",
-  "name": "Create React App Sample",
+  "name": "Ethereum Push Notification Service",
   "icons": [
     {
       "src": "favicon.ico",

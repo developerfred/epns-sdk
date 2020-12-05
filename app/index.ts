@@ -7,14 +7,18 @@ import { EPNS_PROTOCOL_QUERY } from './apollo/queries';
 
 const userTest = '0xd1a8Dd23e356B9fAE27dF5DeF9ea025A602EC81e';
 
-const result = await epnsClient.query({
-  query: EPNS_PROTOCOL_QUERY,
-  fetchPolicy: 'cache-first',
-  variables: {
-    user: userTest.toLowerCase(),
-  },
-});
 
+const getDonations = async () => {
+  const result = await epnsClient.query({
+    query: EPNS_PROTOCOL_QUERY,
+    fetchPolicy: 'cache-first',
+    variables: {
+      user: userTest.toLowerCase(),
+    },
+  });
+
+  return result;
+};
 
 // export function unsubscribe(channel: byte): Promise<object> {
 // }
@@ -28,4 +32,4 @@ const result = await epnsClient.query({
 // export function sendNotification(){}
 // export function UpdateChannel(){}
 
-export default { result };
+export default { getDonations };

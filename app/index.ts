@@ -8,7 +8,7 @@ import { EPNS_PROTOCOL_QUERY } from './apollo/queries';
 const userTest = '0xd1a8Dd23e356B9fAE27dF5DeF9ea025A602EC81e';
 
 
-const getDonations = async () => {
+export const getDonations = async () => {
   const result = await epnsClient.query({
     query: EPNS_PROTOCOL_QUERY,
     fetchPolicy: 'cache-first',

@@ -1,6 +1,8 @@
 import logo from './logo.png';
 import './App.css';
 
+import { getDonations } from 'epns-sdk'
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +11,7 @@ function App() {
         <h1>
           Ethereum Push Notification Service
         </h1>
+        {getDonations}
       </header>
     </div>
   );

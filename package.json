@@ -1,0 +1,45 @@
+{
+  "name": "epns-sdk",
+  "version": "0.0.1",
+  "description": "ethereum-push-notification-service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "dapps",
+    "web3.0",
+    "sdk",
+    "typescript",
+    "EPNS Protocol",
+    "Notifications"
+  ],
+  "author": "codingsh <codingsh@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^7.4.5",
+    "apollo-server-express": "^2.19.0",
+    "axios": "^0.19.2",
+    "class-validator": "^0.12.2",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.4",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "web3": "^1.3.0"
+  }
+}

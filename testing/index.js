@@ -1,0 +1,1 @@
+console.log(`EPNS: Ethereum Push Notifications Service`);

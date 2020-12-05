@@ -1,7 +1,5 @@
 ## EPNS - Ethereum Push Notification Service
-![](https://skygallery.hns.skyportal.xyz/ZAAzFwbHBO8afomS41t-t8ZOVA6RGD-OlpDL3mT8jVWNEw/Screen%20Shot%202020-12-05%20at%2003.22.22.png)
-
-[![Lint status](https://github.comdeveloperfred/epns-sdk/workflows/lint/badge.svg)](https://github.com/developerfred/epns-sdk/actions?query=workflow:lint)
+<div style="text-align:center"><img src="https://skygallery.hns.skyportal.xyz/ZAAzFwbHBO8afomS41t-t8ZOVA6RGD-OlpDL3mT8jVWNEw/Screen%20Shot%202020-12-05%20at%2003.22.22.png" /></div>
 
 **EPNS SDK** is push notification service for Web3 Dapps
 

@@ -37,7 +37,7 @@
     "apollo-datasource-rest": "^0.9.5",
     "apollo-link-http": "^1.5.17",
     "apollo-server-express": "^2.19.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "class-validator": "^0.12.2",
     "create-react-app": "^4.0.1",
     "cross-env": "^7.0.3",

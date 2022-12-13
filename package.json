@@ -41,7 +41,7 @@
     "class-validator": "^0.12.2",
     "create-react-app": "^4.0.1",
     "cross-env": "^7.0.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^15.4.0",
     "graphql-tag": "^2.11.0",
     "mongoose": "^5.11.4",

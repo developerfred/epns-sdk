@@ -38,7 +38,7 @@
     "apollo-link-http": "^1.5.17",
     "apollo-server-express": "^2.19.0",
     "axios": "^0.19.2",
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "create-react-app": "^4.0.1",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
